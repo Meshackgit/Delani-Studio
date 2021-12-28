@@ -104,3 +104,52 @@
     padding-top:40px;
     font-size: 3rem;
   }
+  #contact {
+    background-image: url('/images/c_image.jpg');
+    background-size: cover;
+    background-position: cover;
+    margin-top: 50px;
+}
+.form-cont input {
+    width: 49%;
+    background: transparent;
+    color: white;
+}
+.form-cont textarea {
+    margin-top: 10px;
+    width: 100%;
+    background: transparent;
+    color: white;
+    outline: 1px solid white;
+}
+
+  .form-cont {
+    text-align: center;
+    position: relative;
+    width: 700px;
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+::placeholder{
+    font-size: 20px;
+    color: white;
+}
+#contact h1{
+    color: white;
+}
+
+.con {
+    padding-bottom: 50px;
+}
+
+
+
+.form-cont button {
+    background-color: darkblue;
+    color: #f7f7f7;
+    font-size: 20px;
+  
+   
+}
