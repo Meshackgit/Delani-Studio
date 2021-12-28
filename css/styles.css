@@ -51,17 +51,50 @@
     font-weight: 600;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 200px;
+    align-items: center;
+    padding-bottom: 80px;
+    background-position: center;
+    margin-bottom: 50px;
 
+}
+
+
+
+.service .head {
+    font-size: 3rem;
 }
 
 
 .what-we-do {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 4px;
+    font-size: 17px;
+    color: #000;
+
 }
 
 
 .what-we-do .heading {
     padding-bottom: 37px;
+    font-family: 'Saira Semi Condensed';
+    font-size: 20px;
 }
 
+
+
+.what-we-do .head {
+    font-size: 3rem;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+ 
+}
+
+.portfolio .head {
+
+}
