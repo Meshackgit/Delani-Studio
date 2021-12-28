@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Saira Semi Condensed', sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -13,6 +14,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f7f7f7;
     
     
 }
@@ -20,12 +24,12 @@
 
 
 .logo {
-    position: relative;
-    align-items: center;
+    padding-bottom: 50px;
 }
 
 
 .mouse {
+    padding-bottom: 30px;
     
 }
 
