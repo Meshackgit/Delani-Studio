@@ -25,14 +25,15 @@
       $(".product").hide();
       $("#product-png").show('1500');
     });
+    
+    $(".text").hover(function(){
+        $(this).animate({opacity:'1'});
+    },
+    function(){
+        $(this).animate({opacity:'0'});
+        $(".text").show()
     });
 
-    $("document").ready(function(){
-        $(".text").hover(function(){
-            $(this).animate({opacity:'1'});
-            $(".text").show();
-        },
-        function(){
-            $(this).animate({opacity:'1'})
-        });
-    });
+
+  });
+  
