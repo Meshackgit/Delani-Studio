@@ -34,6 +34,13 @@
         $(".text").show()
     });
 
+    $(".submit").click(function(){
+      //the alert box is working//
+      //alert("Hello");//
+        alert("Hello we have received your request.Thank you for reaching out to us.");
+      }
+    );
+
 
   });
   
