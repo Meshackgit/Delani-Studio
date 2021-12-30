@@ -10,7 +10,7 @@
 
 
 .container-fluid {
-    background: url('/images/h_img.jpg');
+    background: url('../images/h_img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 250px;
@@ -44,7 +44,7 @@
 
 
 .service {
-    background: url('/images/s_image.jpg');
+    background: url('../images/s_image.jpg');
     text-align: center;
     color: #fff;
     font-size: 17px;
@@ -140,7 +140,7 @@
  
 
   #contact {
-    background-image: url('/images/c_image.jpg');
+    background-image: url('../images/c_image.jpg');
     background-size: cover;
     background-position: cover;
     margin-top: 50px;
